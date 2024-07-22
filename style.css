@@ -1,0 +1,132 @@
+/* Estilos adicionales para los inputs circulares */
+.rounded-input {
+    border-radius: 20px; /* Radio alto para hacer los inputs circulares */
+}
+
+/* Otros estilos se mantienen igual */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000; /* Color de fondo general */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Esto centra el contenido verticalmente */
+}
+
+.login-container {
+    display: flex;
+    width: 80%; /* Ancho del contenedor principal */
+    max-width: 1000px; /* Ancho máximo del contenedor */
+    overflow: hidden; /* Para que no se muestre el scroll horizontal */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    border-radius: 10px;
+    background-color: #fff; /* Fondo blanco para el contenedor */
+}
+
+.left-section {
+    flex: 1; /* La sección izquierda ocupa 50% del espacio disponible */
+    background-color: #4CAF50; /* Fondo verde */
+    color: #fff; /* Color de texto blanco */
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 10px; /* Borde redondeado en la esquina superior izquierda */
+    border-bottom-left-radius: 10px; /* Borde redondeado en la esquina inferior izquierda */
+}
+
+.left-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.left-section p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.left-section button {
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 5px;
+}
+
+.left-section button:hover {
+    background-color: #fff;
+    color: #4CAF50;
+}
+
+.right-section {
+    flex: 1; /* La sección derecha ocupa 50% del espacio disponible */
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-section h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #4CAF50; /* Color de texto verde */
+}
+
+form {
+    width: 100%; /* Ancho del formulario */
+    max-width: 400px; /* Ancho máximo del formulario */
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    color: #555;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: calc(100% - 20px); /* Ancho del input, ajustado para el padding */
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+button[type="submit"] {
+    width: 100%; /* Ancho del botón */
+    padding: 10px;
+    background-color: #4CAF50; /* Color de fondo verde */
+    color: #fff; /* Color de texto blanco */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049; /* Cambio de color al pasar el mouse */
+}
+
+p {
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
+
+a {
+    color: #4CAF50; /* Color del enlace verde */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

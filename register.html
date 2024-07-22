@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgroBeneficio - Registro de Usuario</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <div class="register-container">
+        <div class="left-section">
+            <h3>Bienvenido a AgroBeneficio</h3>
+            <p>¡Invierte en ganado, cosecha rentabilidades superiores a un CDT con agroBeneficio!</p>
+            <button>Leer más</button>
+        </div>
+        
+        <div class="right-section">
+            <h2>Registro</h2>
+            <p>Por favor, completa el formulario para crear tu cuenta:</p>
+            <form action="#" method="POST">
+                <input type="text" id="nombre" placeholder="Ingrese sus nombres" name="nombre">
+                <input type="text" id="apellido-paterno" placeholder="Ingrese su primer apellido" name="apellido-paterno">
+                <input type="text" id="apellido-materno" placeholder="Ingrese su segundo apellido" name="apellido-materno">
+                <select name="tipo-documento" id="tipo-documento">
+                    <option value="tarjeta-identidad">Tarjeta de Identidad</option>
+                    <option value="cedula-ciudadania">Cédula de Ciudadanía</option>
+                    <option value="cedula-extranjeria">Cédula de Extranjería</option>
+                </select>
+                <input type="text" id="numero-documento" placeholder="Ingrese su número de documento" name="numero-documento">
+                <select name="tipo-persona" id="tipo-persona">
+                    <option value="inversor">Inversor</option>
+                    <option value="ganadero">Ganadero</option>
+                </select>
+                <input type="text" id="telefono" placeholder="Ingrese su número de teléfono" name="telefono">
+                <input type="email" id="correo" placeholder="Ingrese su correo electrónico" name="correo">
+                <input type="password" id="contraseña" placeholder="Ingrese su contraseña" name="contraseña">
+                <input type="password" id="confirmar-contraseña" placeholder="Confirme su contraseña" name="confirmar-contraseña">
+                <button type="submit">Crear Cuenta</button>
+            </form>
+            <p><a href="login.html">¿Ya tienes una cuenta? Entra aquí</a></p>
+        </div>
+    </div>
+</body>
+</html>
